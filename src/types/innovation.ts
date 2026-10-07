@@ -1,0 +1,4 @@
+export type Status = 'YES' | 'MAYBE' | 'WAITLIST';
+export type Theme = 'Data / Security' | 'Emerging Trends' | 'Engineering Efficiency & Enhancements' | 'Modernization and Transformation' | 'Tech 4 Business' | 'Tech 4 Tech';
+export interface InnovationTopic { id:string; topicName:string; themes:Theme[]; category:string; subCategory:string; lob:string; portfolio:string; businessOpportunity:string; innovativeApproach:string; currentAdoptionStage:string; adoptionScalingNarrative:string; businessProductivityImpact:string; enterpriseInfluenceRecognition:string; demoPrototype:string; reusability:string; whyFeatured:string; spocName:string; status:Status; score:number; comments:string; additionalNotes:string; }
+export interface Booth { id:string; size:'6x6'|'6x8'; teams:number; topicIds:string[]; }
