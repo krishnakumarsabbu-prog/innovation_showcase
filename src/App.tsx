@@ -28,7 +28,7 @@ function App() {
   const [statusFilter,setStatusFilter] = useState<Status|'ALL'>('ALL');
   const [scoreFilter,setScoreFilter] = useState('ALL');
   const [activeView,setActiveView] = useState<'hall'|'schedule'|'floorplan'|'shortlist'>('hall');
-  const [selectedBooth,setSelectedBooth] = useState<Booth|null>(null);
+  const [selectedBooth,setSelectedBooth] = useState<Booth|null>(boothConfig[0]);
   const [selectedTopic,setSelectedTopic] = useState<InnovationTopic|null>(null);
   const [shortlist,setShortlist] = useState<string[]>(() => JSON.parse(localStorage.getItem('innovation-shortlist') || '[]') as string[]);
   const [filterOpen,setFilterOpen] = useState(true);
