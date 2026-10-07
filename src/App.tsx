@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { ArrowLeft, ArrowRight, Bookmark, CalendarDays, ChevronDown, ChevronLeft, ChevronRight, CircleHelp, Clock3, Grid2X2, Home, Info, Maximize2, Menu, Monitor, Pause, Play, RotateCcw, Search, SlidersHorizontal, Sparkles, X, Zap } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Bookmark, CalendarDays, ChevronDown, ChevronLeft, ChevronRight, Circle as CircleHelp, Clock3, Grid2x2X as Grid2X2, Dome as Home, Info, Maximize2, Menu, Monitor, Pause, Play, RotateCcw, Search, SlidersHorizontal, Sparkles, X, Zap } from 'lucide-react';
 import rawTopics from './data/event_themes.json';
 import { boothConfig } from './data/boothConfig';
 import { eventConfig, themes } from './data/eventConfig';
